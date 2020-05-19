@@ -1,0 +1,14 @@
+pipelines/PubSubToBigQueryPipeline$1.class
+pipelines/PubSubToBigQueryPipeline.class
+pipelines/PubSubToBigQueryPipeline$ValueProviderImpl.class
+pipelines/PubSubToBigQueryPipeline$4.class
+options/PubSubToGCSOptions.class
+pipelines/PubSubToBigQueryPipeline$5.class
+pipelines/PubSubToBigQueryPipeline$PubsubMessageToTableRow.class
+utils/PipelineUtils.class
+pipelines/PubSubToBigQueryPipeline$3.class
+options/PubSubToBigQueryOptions.class
+pipelines/BasicPipeline.class
+pipelines/PubSubToBigQueryPipeline$PubsubMessageToFailsafeElementFn.class
+enums/Configs.class
+pipelines/PubSubToBigQueryPipeline$2.class

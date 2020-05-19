@@ -1,0 +1,5 @@
+CREATE [OR REPLACE] {TEMPORARY | TEMP} FUNCTION [IF NOT EXISTS]
+    function_name
+    ([named_parameter[, ...]])
+  [RETURNS data_type]
+  { sql_function_definition | javascript_function_definition }

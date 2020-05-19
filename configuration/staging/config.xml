@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <!--pubsupToBigQuery-->
+    <entry key="pubSupToBQTopic">projects/atypon-insights-test/topics/apache-beam-ETL-test</entry>
+    <entry key="udfLocation">gs://atypon-insights-bq-usage-audit-logs/PubSubToBigQueryTransformLogs.js</entry>
+    <entry key="udfNameAudit">transformUsage</entry>
+    <entry key="udfNameUsage">transformAudit</entry>
+
+    <entry key="adDatasetTable">atypon-insights:bigquery_audit_logs.bq_report_usage_log_nonprod</entry>
+
+    <!--pubSubToGCS-->
+    <entry key="pubSupToGCSTopic">projects/atypon-insights/topics/etl-write-to-gcs</entry>
+    <!--"The window duration in which data will be written. Defaults to 5m. "-->
+    <entry key="windowDuration">5m</entry>
+    <!--"The maximum number of output shards produced when writing."-->
+    <entry key="numShards">1</entry>
+    <!--Output bucket/directory-->
+    <entry key="outputDirectory">gs://aangelog-test/output/</entry>
+    <entry key="outputFileNamePrefix">windowed-output</entry>
+    <entry key="outputFileNameSuffix">.txt</entry>
+    <entry key="outputShardTemplate">W-P-SS-of-NN</entry>
+</properties>

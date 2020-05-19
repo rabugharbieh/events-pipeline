@@ -1,0 +1,6 @@
+/home/rgharbieh/projects/beam-pipeline/src/main/java/options/PubSubToGCSOptions.java
+/home/rgharbieh/projects/beam-pipeline/src/main/java/pipelines/PubSubToBigQueryPipeline.java
+/home/rgharbieh/projects/beam-pipeline/src/main/java/pipelines/BasicPipeline.java
+/home/rgharbieh/projects/beam-pipeline/src/main/java/options/PubSubToBigQueryOptions.java
+/home/rgharbieh/projects/beam-pipeline/src/main/java/enums/Configs.java
+/home/rgharbieh/projects/beam-pipeline/src/main/java/utils/PipelineUtils.java
